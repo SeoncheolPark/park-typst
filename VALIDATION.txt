@@ -1,0 +1,19 @@
+note: 1 pages, compile passed without any bundled logo.
+slide: 3 pages, compile passed without any bundled logo.
+exam: 1 pages, compile passed without any bundled logo.
+exam-code: 1 pages, compile passed without any bundled logo.
+book: 4 pages, compile passed without any bundled logo.
+Calepin book.pdf: identical pages, text and rendered pixels.
+Calepin chapters/01-newton-slides.pdf: identical pages, text and rendered pixels.
+Calepin chapters/01-newton.pdf: identical pages, text and rendered pixels.
+Calepin chapters/02-em-slides.pdf: identical pages, text and rendered pixels.
+Calepin chapters/02-em.pdf: identical pages, text and rendered pixels.
+Calepin index-slides.pdf: identical pages, text and rendered pixels.
+Calepin index.pdf: identical pages, text and rendered pixels.
+Calepin crossrefs unchanged: 13 labels.
+Original chapter source files unchanged.
+Single common box-border edit reached standalone note and standalone book.
+Appendix A, forward references, project bibliography and index page links passed.
+Section-level shared theorem counter reset passed.
+Installer tested on original and previous-package book: dry run, install, rerun, restore and modified-file rejection passed.
+Typst 0.15.1 / Calepin 0.0.61 / Linux. Private Package publication not performed.
