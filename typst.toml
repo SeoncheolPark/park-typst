@@ -1,6 +1,6 @@
 [package]
 name = "park-typst"
-version = "0.1.0"
+version = "0.1.1"
 entrypoint = "lib.typ"
 authors = ["Seoncheol Park"]
 description = "Unified notes, slides, exams and Calepin book styles"

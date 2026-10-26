@@ -38,11 +38,11 @@
     block(width: 100%, breakable: true,
       inset: (left: 1em, right: 0em, top: 0.6em, bottom: 0.6em),
       spacing: 1.2em, fill: none, stroke: (left: s.box-border + rgb(color)))[
-      #block(above: 0em, below: s.box-title-gap)[
+      #block(above: 0em, below: s.box-title-gap, sticky: true)[
         #set text(weight: "bold", fill: rgb(color))
         #label #h(1fr) #if title != none { title }
       ]
-      #block(inset: (right: 1em), spacing: 0em, width: 100%, body)
+      #block(inset: (right: 1em), spacing: 0em, width: 100%, breakable: true, body)
     ]
   }
 }
