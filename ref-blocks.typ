@@ -113,6 +113,7 @@
   show math.equation.where(block: true): it => context {
     if target() == "html" { native-html-anchor(it) } else { it }
   }
+  show figure: set block(breakable: true)
   show figure: it => context {
     if type(it.kind) == str and it.kind.starts-with("stat-") {
       let kind = it.kind.slice(5)
